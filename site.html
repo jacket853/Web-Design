@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<div class="p-5 bg-dark text-white text-center">
+<div class="p-5 bg-dark text-white text-center" id="top">
   <h1>The Hennessey Venom F5</h1>
   <p>A Performance Hypercar for the Ages</p>
 </div>
@@ -18,13 +18,16 @@
   <div class="container-fluid">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link active" href="#" data-bs-toggle="tooltip" title="back to tde top">Home</a>
+        <a class="nav-link active" href="#" title="back to the top">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" data-bs-toggle="tooltip" title="juicy content">Posts</a>
+        <a class="nav-link" href="#posts" title="juicy content">Posts</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" data-bs-toggle="tooltip" title="Promo">New Video</a>
+        <a class="nav-link" href="#video" title="promo">New Video</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#footer" title="to the end">About the Creator</a>
       </li>
     </ul>
   </div>
@@ -36,11 +39,12 @@
       <h2>A Quick Intro</h2>
       <img src="https://www.hennesseyspecialvehicles.com/wp-content/uploads/2021/11/CROPPEDHennessey-Venom-F5-Silver_002-min-copy-scaled.jpg" alt="cover-photo" class="img-fluid">
       <p>The Hennesey Venom F5 was designed as the world's fastest road car. Even its name derives from the designation for the highest intensity rating for a tornado on the Fujita Scale.</p>
-      <h3 class="mt-4">Links to other websites</h3>
-      <p>Where is this</p>
+
+      <h3 class="mt-4">Links to Websites</h3>
+      <p>Other Interesting Topics</p>
       <ul class="nav nav-pills flex-column">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Home</a>
+          <a class="nav-link active" href="https://www.hennesseyperformance.com/vehicles/">HSP list of tuned vehicles</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Link</a>
@@ -51,14 +55,15 @@
       </ul>
       <hr class="d-sm-none">
     </div>
-    <div class="col-sm-8">
+
+    <div class="col-sm-8" id="posts">
       <h2 class="mt-5">About Hennessey</h2>
       <button data-bs-toggle="collapse" data-bs-target="#card1"><h5>Click for Post</h5></button>
         <div id="card1" class="collapse">
           <div class="card">
             <div class="card-body">
               <h4 class="card-title">Hennessey Special Vehicles</h4>
-              <img class="card-text" src="https://upload.wikimedia.org/wikipedia/commons/tdumb/f/ff/Cars_-_Hennessey_Venom_650R.jpg/800px-Cars_-_Hennessey_Venom_650R.jpg" alt="old-hennessey" class="img-fluid"></img>
+              <img class="card-text" src="https://th.bing.com/th/id/OIP.TETIfMpwi6x4clTPFNDM0gHaFL?pid=ImgDet&rs=1" alt="old-hennessey" class="img-fluid"></img>
               <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#blog1">See More</a>
               <div class="modal fade" id="blog1">
                 <div class="modal-dialog">
@@ -140,10 +145,20 @@
           </div>
         </div>
     </div>
+
+    <hr>
+
+    <div class="mt-4 p-5 bg-primary text-white rounded" id="video">
+      <h1>Promotional Video</h1>
+      <div class="ratio ratio-4x3">
+        <iframe class="shadow p-4 mb-4 bg-white" src="https://www.youtube.com/embed/mSG27EGn-k0?controls=0"></iframe>
+      </div>
+    </div>
   </div>
 </div>
 
-<div class="mt-5 p-4 bg-dark text-white text-center">
+<div class="mt-5 p-4 bg-dark text-white text-center" id="footer">
+  <a type="button" class="btn btn-light" href="#top">Back to Top</a>
   <p>Footer back to top button, about</p>
 </div>
 
